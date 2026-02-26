@@ -1,0 +1,41 @@
+#include<stdio.h>
+// definição das estruturas das cartas
+struct carta{
+    char estado;
+    char codigo{4};
+    char nomecidade{50};
+    unsigned long int populaçao;
+    float area;
+    float pib;
+    int pontosturísticos;
+};
+
+int main(){
+    struct carta c1, c2;
+ //cadastro carta 1
+ printf("digite o estado da carta 1 (A-H):");
+ scanf("%C",&c1.estado);
+ printf("digite o codigo da carta 1:")
+ scanf("%s",c1.codigo);
+ printf("digite a populaçao da carta 1:");
+ scanf("%lu",&c1.populaçao);
+  
+ printf("digite o estado da carta 2 (A-H):");
+ scanf("%C",&c2.estado);
+ printf("digite o codigo da carta 2:")
+ scanf("%s",c2.codigo);
+ printf("digite a populaçao da carta 2:");
+ scanf("%lu",&c2.populaçao);
+
+ //comparação das cartas c1 ec2
+ printf("/ncomparando cartas por populaçao:\n");
+ if(c1.população> c2.populaçao){
+    print("'carta.1(%s) venceu!\n",c1.nomecidade);
+    print("'carta.2(%s) venceu!\n",c2.nomecidade);
+
+ }
+  return 0;
+}
+ 
+
+
