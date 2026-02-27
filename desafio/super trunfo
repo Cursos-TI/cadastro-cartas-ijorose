@@ -27,7 +27,7 @@ int main(){
  printf("digite a populaçao da carta 2:");
  scanf("%lu",&c2.populaçao);
 
- //comparação das cartas c1 ec2
+ //comparação das cartas c1 e c2
  printf("/ncomparando cartas por populaçao:\n");
  if(c1.população> c2.populaçao){
     print("'carta.1(%s) venceu!\n",c1.nomecidade);
